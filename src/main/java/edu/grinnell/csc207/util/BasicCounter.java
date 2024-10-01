@@ -8,6 +8,7 @@ public class BasicCounter implements Counter {
   public BasicCounter(int start) {
     this.count = start;
     this.start = start;
+    //System.err.printf("BasicCounter(%d)\n",start); 
   }
 
   public void increment() throws Exception {

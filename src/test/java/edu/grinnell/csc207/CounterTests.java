@@ -15,8 +15,8 @@ import edu.grinnell.csc207.util.NamedCounter;
  * Tests of our counter class.
  *
  * @author Samuel A. Rebelsky
- * @author Your Name Here
- * @author Your Name Here
+ * @author Natalie Nardone
+ * @author Princess Alexander
  */
 public class CounterTests {
   /**
