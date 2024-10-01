@@ -2,6 +2,8 @@ package edu.grinnell.csc207.experiments;
 
 import edu.grinnell.csc207.util.Counter;
 
+import edu.grinnell.csc207.util.Tally;
+
 import java.io.PrintWriter;
 
 import edu.grinnell.csc207.util.BasicCounter;
@@ -21,7 +23,7 @@ public class CounterExperiments {
 
 
     // Set up some counters
-    Counter alpha = new BasicCounter(0);
+    Counter alpha = new Tally();
     Counter beta = new BasicCounter(123);
     Counter gamma = new BasicCounter(-5);
 
